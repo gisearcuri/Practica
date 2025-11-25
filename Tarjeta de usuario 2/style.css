@@ -1,0 +1,65 @@
+#main{
+    width: 700px;
+    height: 600px;
+    background-color: pink;
+    border: 2px solid rgb(150, 150, 150);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#main >div{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+}
+#main >div h1{
+    margin-left: 0px;
+    margin-top: 0px;
+    position:relative;
+    top: 20px;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main >div h4{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+#main >div p{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    width: 600px;
+}
+#main >div button{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #f9f7fd;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+#main >div img{
+    max-width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -55px;
+    left: 50px;
+    border-radius: 100px;
+    border: 2px solid white;
+}

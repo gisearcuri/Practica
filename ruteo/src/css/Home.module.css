@@ -1,0 +1,8 @@
+.lista{
+    list-style: none;
+}
+.lista a{
+    text-decoration: none;
+    color: #5cb460;
+    align-items: center;   
+}

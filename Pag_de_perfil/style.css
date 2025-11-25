@@ -1,0 +1,213 @@
+body{
+    height: 100vh;
+}
+header{
+    flex: 1;
+    background-color: rgb(247, 212, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    color: grey;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.boton1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #f9f7fd;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.nav-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: grey;
+        
+}
+
+.main{
+    display:flex
+}
+.izquierda , .derecha{
+    display: flex;
+    flex-direction: column;
+}
+.izquierda{
+    flex:2;
+    margin-left:80px;
+}
+.derecha{
+    flex:1;
+}
+#main1{
+    width: 700px;
+    height: 600px;
+    background-color: pink;
+    box-shadow: 1px 1px 1px 1px rgba(214, 214, 214, 1);
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#main1 >div{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+}
+#main1 >div h1{
+    margin-left: 0px;
+    margin-top: 0px;
+    position:relative;
+    top: 20px;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main1 >div h4{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+#main1 >div p{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    width: 600px;
+}
+#main1 >div button{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #f9f7fd;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+#main1 >div img{
+    max-width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -55px;
+    left: 50px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+
+#main2{
+    box-shadow: 1px 1px 1px 1px rgba(214, 214, 214, 1);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height:150px
+}
+#main2 >h3{
+    position: relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+#main2 >p{
+    margin-left: 0px;
+    margin-top: 10px;
+    position:relative;
+    left: 50px;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+
+#main3{
+    box-shadow: 1px 1px 1px 1px rgba(214, 214, 214, 1);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+#solicitud{
+    display: flex;
+    align-items: center;
+}
+#main3 >div >img{
+    max-width: 50px;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+#main3 >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    margin: 25px;
+}
+#main3 >div >p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);    
+}
+#aceptar{
+    height:30px;
+    width:30px;
+    border:2px solid #eaa4c5;
+    border-radius:50px;
+    margin-left:20px;
+    color:#eaa4c5;
+    background-color:white;
+}
+#rechazar{
+    height:30px;
+    width:30px;
+    border:2px solid #eaa4c5;
+    border-radius:50px;
+    margin-left:20px;
+    color:#eaa4c5;
+    background-color:white;
+}
+
+#main4{
+    box-shadow: 1px 1px 1px 1px rgba(214, 214, 214, 1);
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+#main4 >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100); 
+    margin:20px;
+}
+#conexiones{
+    display:flex;
+    align-items:center;
+}
+#main4 >div >img{
+    max-width: 50px;
+    border-radius: 100px;
+    margin: 20px;
+}
+#main4 >div >p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100); 
+}

@@ -1,0 +1,40 @@
+#root {
+  margin: 0;
+  padding: 0;
+  background-color:#f0f0f0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+flex:1;
+}
+
+main{
+flex:6;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+h2{
+  color:#1d9f86 ;
+  font-size: 32px;
+}
+h1{
+  color:black;
+}
+li{
+  list-style: none;
+  font-size: 20px;
+  color:black;
+  margin-right: 8rem;
+}
+
+footer{
+  flex:0.5;
+
+}
+

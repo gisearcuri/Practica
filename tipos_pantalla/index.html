@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        @media only screen and (max-width: 480px){
+            .sm-0 {
+            /* no imprimirá nada con la clase .sm-0 si el ancho de la pantalla es menor a 480px */
+            display: none;
+            }
+        }
+        @media only screen and (min-width: 481px){
+            .med-1 {
+                /* todo de clase.med-1 obtendrá el 25% del ancho disponible, si el ancho de la pantalla es mayor a 480px */
+                width: 25%;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="col sm-0 med-1">
+        <h5>¡Dato Curioso!</h5>
+        <p>¿Sabías que los pulpos tienen tres corazones y sangre azul?</p>
+    </div>
+</body>
+</html>

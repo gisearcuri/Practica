@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: rgb(247, 212, 217);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    color: grey;
+    margin-left:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex:0.5;
+}
+.buscar{
+    flex:2;
+}
+.btn0{
+    padding:2px 350px;
+    border: #f6f5c4;
+}
+.inicer{    
+    flex:0.3;
+    padding:10px;
+}
+.btn{
+    background-color:#1d94ff;
+    color:white;
+    padding: 10px 20px;
+    border: solid 1px;
+}
+
+.main{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+.izquierda{
+    flex:2;
+    margin-top:20px;
+}
+.gato{
+    margin-top:20px;
+    margin-left:20px;
+    border: solid 1px;
+    width: 920px;
+    height:210px;
+}
+.gato h4{
+margin-left:10px;
+margin-top:20px;
+}
+.gato p{
+    margin-left:10px;
+}
+.btn1{
+    margin-left:10px;
+    background-color:#f6f5c4;
+    border: solid 1px;
+    border-radius:5px;
+    padding: 8px 10px;
+}
+.perro{
+    margin-top: 20px;
+    margin-left:20px;
+    border: solid 1px;
+    width: 920px;
+    height:210px;
+}
+.perro h4{
+    margin-left:10px;
+    margin-top:20px;
+}
+.perro p{
+    margin-left:10px
+}
+.btn2{
+    margin-left:10px;
+    background-color:#f6f5c4;
+    border: solid 1px;
+    border-radius:5px;
+    padding: 8px 10px;
+}
+.derecha{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.petlop{
+    flex: 0;
+    border: solid 1px;
+    width: 400px;
+    height:100px;
+    margin-top: 20px;
+}
+
+.petlop p{
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.btn3{
+    margin-left:10px;
+    background-color:green;
+    border: solid 1px;
+    color:white;
+    padding:6px 20px;
+    margin-bottom: 20px;
+}

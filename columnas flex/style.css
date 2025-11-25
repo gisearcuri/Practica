@@ -1,0 +1,21 @@
+.row {
+    background-color: lightgray;
+    margin: 10px;
+    display: flex;
+/* Acá va 1 propiedad */
+}
+  
+.col {
+    flex: 1;
+/* Acá van 4 propiedades */
+}
+  
+.col-2 {
+    flex: 2;
+/* Acá va 1 propiedad */
+}
+  
+.col-3 {
+    flex: 3;
+/* Acá va 1 propiedad */
+}

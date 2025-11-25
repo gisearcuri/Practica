@@ -1,0 +1,14 @@
+#nota{
+    width: 100%
+}
+#priority{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.addBtn{
+    width: 100%;
+}
+.div{
+    margin: 20px;
+}

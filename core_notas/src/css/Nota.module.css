@@ -1,0 +1,14 @@
+.high{
+    color:red
+}
+.medium{
+    color:aqua
+}
+.low{
+    color:green
+}
+.notaCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

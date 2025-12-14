@@ -6,7 +6,7 @@ const usuarioSchema =  mongoose.Schema(
         nombre: {
             type : String,
             required : [true, "El nombre es obligatorio"],
-            minlenght : [3, "El nombre debe tener al menos 3 caracteres"],
+            minlength : [3, "El nombre debe tener al menos 3 caracteres"],
         },
         apellido : {
             type : String,

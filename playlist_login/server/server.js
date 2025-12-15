@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import toConnectToBd from './config/database.js'
 import rutasCanciones from './rutas/canciones.ruta.js'
 import playlistRuta from './rutas/playlist.ruta.js'
-import usuarioRuta from './rutas/usuarios.Ruta.js'
+import usuarioRuta from './rutas/usuarios.ruta.js'
 import cors from 'cors'
 
 dotenv.config()

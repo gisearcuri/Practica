@@ -43,13 +43,25 @@ const usuarioControlador = {
             return res.status(400).json({ errors: messages });
         }
     },
+    deleteOne: async (req,res)=>{
+        const id = req.params.id;
+        try{
+            const borrarUsuario = await Usuario.findByIdAndDelete(id)
+            if(!borrarUsuario){
+                return res.status(404).json({message: "El usuario no existe"})
+            }
+            res.status(201).json({message: "El usuario fue eliminado con exito."})
+        }catch(e){
+            return res.status(400).json(e)
+        }
+    },
 
     login: async (req, res) => {
         const { email, contrasena } = req.body;
 
         const usuarioRecurrente = await Usuario.findOne({ email });
         if (!usuarioRecurrente) {
-            return res.status(404).json({ errors: { email: "Credenciales invalidas" } });
+            return res.status(404).json({ errors: { email: "El email es incorrecto o no existe en la BD" } });
         }
 
         const bcryptRespuesta = await bcrypt.compare(
@@ -58,7 +70,7 @@ const usuarioControlador = {
         );
 
         if (!bcryptRespuesta) {
-            return res.status(404).json({ errors: { contrasena: "Credenciales invalidas" } });
+            return res.status(404).json({ errors: { contrasena: "Contraseña incorrecta" } });
         }
 
         const payload = {

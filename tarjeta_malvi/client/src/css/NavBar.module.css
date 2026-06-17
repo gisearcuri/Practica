@@ -1,0 +1,14 @@
+.navBar{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb3b0;
+}
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
